@@ -1,0 +1,120 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to 1280px
+*/
+
+
+
+@media (min-width: 990px) and (max-width: 1280px) {
+   
+    
+    
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 989px) {
+   
+    .search {
+                    display: none;
+    }
+
+       
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+@media (min-width: 501px) and (max-width: 767px) { 
+    .search {
+                    display: none;
+    }
+ footer ,footer .arabic{
+        text-align: center!important;
+    }
+footer .nav-link{
+        display: inline-block!important;
+        border-right: 1px solid lightgray;
+    }
+      footer .arabic .nav-link{
+        border-right: none!important;
+         border-left: 1px solid lightgray;
+    }
+      footer .nav-item, footer .navbar-nav{
+        display: inline-block!important;
+    }
+
+  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 500px) {
+        .search {
+                    display: none;
+    }
+ .logo img{
+width: 120px;   }
+ footer ,footer .arabic{
+        text-align: center!important;
+    }
+footer .nav-link{
+        display: inline-block!important;
+    }
+   
+      footer .nav-item, footer .navbar-nav{
+     
+          display: inline-block!important;
+    }
+   .container, .w-50{
+        width: 100%!important;
+    }
+     input{
+        text-align: center;
+    }
+    .nav-link{
+        padding: 0px!important;
+    }
+    }
+ /*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+@media (min-width: 0px) and (max-width: 319px) {
+  
+      .logo img{
+width: 120px;   }
+ footer ,footer .arabic{
+        text-align: center!important;
+    }
+footer .nav-link{
+        display: inline-block!important;
+    }
+   
+      footer .nav-item, footer .navbar-nav{
+        display: inline-block!important;
+    }
+   .container, .w-50{
+        width: 100%!important;
+    }
+    input{
+        text-align: center;
+    }
+    .search{
+        display: none;
+    }
+     .nav-link{
+        padding: 0px!important;
+    }
+}
